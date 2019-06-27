@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="MyHome.css">
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<meta charset="utf-8">
+</head>
+<body>
+	<img src="picture/MONEYHONG.png" id="icon">
+	<div id="line"></div>
+	<div id="left_list">
+		<ul>
+			<li>
+				<button class="button1" id="account_message_">账户信息</button>
+			</li>
+
+			<li>
+				<button class="button1" id="my_task_">我的任务</button>
+			</li>
+			
+			<li>
+				<button class="button1" id="my_message_">我的消息</button>
+			</li>
+			
+			<li>
+				<button class="button1" id="account_security_">账户安全</button>
+			</li>
+			
+			<li>
+				<button class="button1" id="log_out_">退出登录</button>
+			</li>
+		</ul>
+	</div>
+
+	<button id="TaskHome" class="button3">任务中心</button>
+	<button id="MyHome" class="button3">个人中心</button>
+
+	<ul>
+		<div id="account_message" class="right_list">
+			<div id="head_portrait"></div>
+			<button id="change_por">更换头像</button>
+			<div id="detail_message"></div>
+		</div>
+
+		<div id="my_task" class="right_list">
+		  <li class="li1">
+		  	<button id="unfinish" class="button2">未完成</button>
+		  	<div id="unfinish_" class="detail_list"></div>
+		  </li>
+		  <li class="li1">
+		  	<button id="finished" class="button2">已完成</button>
+		  	<div id="finished_" class="detail_list"></div>
+		  </li>
+		  <li class="li1">
+		  	<button id="published" class="button2">已发布</button>
+		  	<div id="finished_" class="detail_list"></div>
+		  </li>
+		</div>
+
+		<div id="my_message" class="right_list">
+			<li class="li1">
+				<button id="points" class="button2">积分通知</button>
+				<div id="points_" class="detail_list"></div>
+			</li>
+			<li class="li1">
+				<button id="progress" class="button2">任务进展</button>
+				<div id="progress_" class="detail_list"></div>
+			</li>
+			<li class="li1">
+				<button id="reminder" class="button2">任务提醒</button>
+				<div id="reminder_" class="detail_list"></div>
+			</li>
+		</div>
+
+		<div id="account_security" class="right_list">
+			<li>
+				<button id="change" class="button2">修改密码</button>
+				<form id="change_" >
+					</br>
+					验证邮箱：<input type="text" name="email">
+					<input type="button" value="验证" id="check">
+				</form>
+			</li>
+			<li>
+				<button id="forget" class="button2">忘记密码</button>
+				<form id="change_" >
+				</br>
+					验证邮箱：<input type="text" name="email">
+					<input type="button" value="验证" id="check">
+				</form>
+			</li>
+		</div>
+
+		<div id="log_out" class="right_list">
+			<div>
+				<button id="logout_check" class="detail_list">退出确认</button>
+			</div>
+		</div>
+
+	</ul>
+
+</body>
