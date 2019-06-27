@@ -1,0 +1,37 @@
+#message{
+	width: 25%;
+	height: 70%;
+	border: 2px solid grey;
+	border-radius: 3px;
+	position: absolute;
+	top: 20%;
+	left: 40%;
+	font-size: 20px;
+}
+
+li{
+	list-style-type: none;
+	position: relative;
+	left: 10%;
+	top: 5%;
+}
+
+button{
+	width: 40%;
+	height: 10%;
+	border-radius: 3%;
+	border: 5px solid black;
+	position: absolute;
+	top: 85%;
+	left: 30%;
+}
+
+h1{
+	position: relative;
+	top: 1%;
+	left: 30%;
+}
+
+.btn{
+	background-color: #99CC99;
+}
