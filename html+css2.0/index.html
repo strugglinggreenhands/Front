@@ -1,0 +1,23 @@
+{% extends 'login/base.html' %}
+{% load staticfiles %}
+{% block title %}主页{% endblock %}
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/HomePage.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+
+{% endblock %}
+<body>
+    {% block content %}
+        {% if message %}
+            <div class="alert alert-warning">{{ message }}</div>
+        {% endif %}
+         <img src="../../../static/css/MONEYHONG.png" alt="icon" id="icon">
+        <p id="slogan">做最有价值的顺手小事</p>
+        {% if request.session.is_login %}
+
+
+        {% else %}
+        {% endif %}
+    {% endblock %}
+
+</body>
