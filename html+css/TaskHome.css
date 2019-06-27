@@ -1,0 +1,125 @@
+body{
+	background-color: white;
+	background-size:100% 100%;
+	background-attachment: fixed;
+}
+
+li{
+	list-style: none;
+}
+
+button{
+	text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#icon{
+	position: absolute;
+	top: 0px;
+	left: -30px;
+	width: auto;
+	height: auto;
+	max-width: 350px;
+	max-height: 85px;
+
+}
+
+#line{
+	width: 1350px;
+  border-bottom: 3px solid grey;
+  position: absolute;
+  top: 60px;
+}
+
+.button2{
+	border: none;
+	background-color: transparent;
+  font-size: 25px;
+  position: absolute;
+  left: 1120px;
+  top: 15px;
+  
+}
+
+#MyHome{
+	position: absolute;
+	left: 1230px;
+}
+
+#TaskHome{
+	color: #66CC99;
+}
+
+#left_list{
+	width: 340px;
+	height: 560px;
+	position: absolute;
+	left: 8px;
+	top: 63px;
+	overflow: hidden;
+}
+
+.button1{
+	width: 340px;
+	height: 70px;
+	background-color: #66CC99;
+	font-size: 20px;
+	position: relative;
+	top: -20px;
+	left: -40px;
+}
+
+.right_list{
+	width: 1010px;
+	height: 560px;
+	position: absolute;
+	top: 63px;
+	left: 348px;
+	overflow: hidden;
+	z-index: -1;
+}
+
+.details{
+	width: 1005px;
+	height: 140px;
+	border: 1px;
+	overflow: hidden;
+	border:1px solid #000;
+	z-index: 1;
+}
+
+.detail_message{
+	width: 900px;
+	height: 130px;
+	border:1px solid #000;
+	position: relative;
+	top: 5px;
+	left: 5px;
+	z-index: 2;
+}
+
+.accept{
+	width: 95px;
+	height: 50px;
+	position: absolute;
+	top: 50px;
+	left: 910px;
+	font-size: 17px;
+}
+
+#selects{
+	position: absolute;
+	top: 30px;
+	left: 920px;
+}
+
+#publish{
+	position: absolute;
+	top: 60px;
+	left: 910px;
+}
+
+#publish_task{
+	background-color: #669FC1;
+}
