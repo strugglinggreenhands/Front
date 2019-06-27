@@ -1,0 +1,32 @@
+{% extends 'login/base.html' %}
+{% load staticfiles %}
+{% block title %}任务中心{% endblock %}
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/my_transaction.css' %}">
+{% endblock %}
+
+{% block content %}
+    {% if message %}
+        <div class="alert alert-warning">{{ message }}</div>
+    {% endif %}
+    <h1 id="my_task">我的任务</h1>
+    <div class="left-list" id="my_doing_">
+        <h2><a href="/my_doing/">进行的任务</a></h2>
+    </div>
+    <div class="left-list" id="my_upload_">
+        <h2><a href="/my_upload/">发布的任务</a></h2>
+    </div>
+    <div class="left-list" id="my_finish_">
+        <h2><a href="/my_finish/">完成的任务</a></h2>
+    </div>
+    <!--
+    <div class="trans_list">
+        {% for trans in key %}
+            {% for num,value in trans.items %}
+                <p style="width:50%">{{ num }}:{{ value }}</p>
+            {% endfor %}
+            <br>
+        {% endfor %}
+    </div>
+    -->
+{% endblock %}
