@@ -1,0 +1,226 @@
+body{
+	background-color: white;
+	background-size:100% 100%;
+	background-attachment: fixed;
+}
+
+li{
+	list-style: none;
+}
+
+button{
+	text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#icon{
+	position: absolute;
+	top: 0px;
+	left: -30px;
+	width: auto;
+	height: auto;
+	max-width: 350px;
+	max-height: 85px;
+
+}
+
+#line{
+	width: 1350px;
+  border-bottom: 3px solid grey;
+  position: absolute;
+  top: 60px;
+}
+
+#left_list{
+	width: 340px;
+	height: 560px;
+	position: absolute;
+	left: 8px;
+	top: 63px;
+}
+
+.right_list{
+	width: 1010px;
+	height: 560px;
+	position: absolute;
+	top: 63px;
+	left: 348px;
+	overflow: hidden;
+	border:1px solid #000;
+	z-index: -1;
+}
+
+.detail_list{
+	width: 1010px;
+	height: 500px;
+	overflow: hidden;
+	position: absolute;
+	top: 60px;
+	border:1px solid #000;
+	z-index: 1;
+}
+
+.button3{
+	border: none;
+	background-color: transparent;
+  font-size: 25px;
+  position: absolute;
+  left: 1120px;
+  top: 15px;
+  
+}
+
+.button1{
+	overflow: hidden;
+	width: 340px;
+	height: 70px;
+	background-color: #66CC99;
+	font-size: 20px;
+}
+
+.button2{
+	width: 300px;
+	height: 50px;
+	font-size: 17px;
+}
+
+.li1{
+	float: left;
+}	
+
+#MyHome{
+	position: absolute;
+	left: 1230px;
+	color: #66CC99;
+}
+
+#account_message_{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#my_task_{
+	position: absolute;
+	left: 0px;
+	top: 63px;
+}
+
+#my_message_{
+	position: absolute;
+	left: 0px;
+	top: 133px;
+}
+
+#account_security_{
+	position: absolute;
+	left: 0px;
+	top: 203px;
+}
+
+#log_out_{
+	position: absolute;
+	left: 0px;
+	top: 273px;
+}
+
+#unfinish{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+#finished{
+	position: absolute;
+	top: 5px;
+	left: 305px;
+}
+
+#published{
+	position: absolute;
+	top: 5px;
+	left: 605px;
+}
+
+#points{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+#progress{
+	position: absolute;
+	top: 5px;
+	left: 305px;
+}
+
+#reminder{
+	position: absolute;
+	top: 5px;
+	left: 605px;
+}
+
+#change{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+#forget{
+	position: absolute;
+	top: 5px;
+	left: 305px;
+}
+
+#change_{
+	width: 600px;
+	height: 70px;
+	position:absolute;
+	top: 55px;
+	left: 10px; 
+}
+
+#forget_{
+	background-color: blue;
+	width: 600px;
+	height: 70px;
+	position:absolute;
+	top: 55px;
+	left: 10px; 
+}
+
+#logout_check{
+	width: 100px;
+	height: 50px;
+	font-size: 20px;
+	position: absolute;
+	top: 200px;
+	left: 400px;
+}
+
+#head_portrait{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #000;
+	position: relative;
+	top: 100px;
+	left: 100px;
+}
+
+#change_por{
+	width: 100px;
+	height: 30px;
+	position: relative;
+	top: 120px;
+	left: 150px;
+}
+
+#detail_message{
+	width: 550px;
+	height: 560px;
+	position: relative;
+	left: 420px;
+	top: -233px; 
+}
+
