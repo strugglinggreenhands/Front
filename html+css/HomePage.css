@@ -1,0 +1,52 @@
+body{
+	background-image: url('picture/background.jpg');
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	background-attachment: fixed;
+}
+
+#icon{
+	position: absolute;
+	left: 350px;
+	top: 200px;
+}
+
+#slogan{
+	color: block;
+	position: absolute;
+	left: 650px;
+	top: 320px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 25pt;
+}
+
+#line{
+  width: 1350px;
+  border-bottom: 3px solid grey;
+  position: absolute;
+  top: 60px;
+}
+
+#log_in{
+	border: none;
+	text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  background-color: transparent;
+  position: absolute;
+  top: 15px;
+  left: 1230px;
+}
+
+#log_on{
+	border: none;
+	text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  background-color: transparent;
+  position: absolute;
+  top: 15px;
+  left: 1300px;
+}
